@@ -1,3 +1,5 @@
 7e26b4a32a42d75fe10cbfd726eb445e
 
 URL: http://api.stlouisfed.org/fred/series/observations?series_id=UEMP27OV&api_key=7e26b4a32a42d75fe10cbfd726eb445e&file_type=json
+
+Parameter for observation_start at jan 1, 2000: observation_start=2000-01-01
