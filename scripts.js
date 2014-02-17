@@ -4,9 +4,13 @@
 
 
 function addJSONToPage(jsonData){
+	//console log my data
 	console.log(jsonData);
+	//create a new div to jQuery
 	var myDataDiv = $("<div>");
-	myDataDiv.html(jsonData);
+	//add data to div
+	$(myDataDiv).html(jsonData.observations[0].value);
+	//add new div to page
 	$("#contentContainer").append(myDataDiv);	
 }
 
